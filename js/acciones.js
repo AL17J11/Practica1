@@ -29,6 +29,11 @@ $ (document).ready(function(e){
 		navigator.notification.alert("Desliz&oacute; a la derecha", function(){},"Practica 1","Aceptar");
 	});
 	},false);
+	$('table td').eq(1).text(device.name);
+	$('table td').eq(3).text(device.cordova);
+	$('table td').eq(5).text(device.plataform);
+	$('table td').eq(7).text(device.version);
+	$('table td').eq(9).text(device.UUID);
 });
 
 //$ (document).ready(function(e){
